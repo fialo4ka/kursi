@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <title>Cafe.W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+    body {font-family:"Times New Roman", serif}
+h1,h2,h3,h4,h5,h6 {font-family:serif; letter-spacing:5px}
+</style>
+<body>
+
+<!-- Navbar (Sits on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 4px;">
+         <a href="#home" class="w3-bar-item w3-button">Ice cream parlour</a>
+          <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+         </div>
+    </div>
+
+<!-- Header image -->
+</div>    
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="./img/ice-cream-parlor.jpg" alt="ice cream" width="100%">
+       <div class="w3-display-topmiddle w3-center"> 
+           <h1 class="w3-hide-small"><br><br>Ice cream palrol</h1>
+           <br>
+           <br>
+           <span class="w3-black w3-xxlarge w3-text-white w3-button w3-round w3-wide w3-hover-yellow">Order now</span>
+        </div>
+</header>
+
+<!-- Menu -->
+<div id="menu" class="w3-yellow w3-padding-top-64" >
+    <div class="w3-row">
+        <div class="w3-half w3-padding-large w3-hide-small">
+            <img class="w3-margin-left w3-round" src="./img/ice-cream3.jpg" alt="Ice cream cone" width="630" height="560">
+        </div>     
+            <div class="w3-half">
+                <h2 class="w3-wide w3-center">Menu</h2>  
+               <br>
+              <div class="w3-row w3-margin-right">
+                 <a class="w3-third w3-button w3-hover-white w3-wide" href="#cones">Cones</a>
+                 <a class="w3-third w3-button w3-hover-white w3-wide" href="#waffles">Waffles</a>
+                 <a class="w3-third w3-button w3-hover-white w3-wide" href="#rolled">Rolled</a>
+              </div>   
+                     <div id="cones" class="w3-container w3-padding-10 w3-white w3-margin-right w3-border w3-border-black">
+                        <h3>Chocolate<span class="w3-right w3-tag w3-light-grey w3-round">2,99</span></h3>
+                        <h3>Vanilla<span class="w3-right w3-tag w3-light-grey w3-round">2,99</span></h3>
+                        <h3>Banana<span class="w3-right w3-tag w3-light-grey w3-round">2,99</span></h3>
+                        <h3>Caramel<span class="w3-right w3-tag w3-light-grey w3-round">2,99</span></h3>
+                        <h3>Cherry<span class="w3-right w3-tag w3-light-grey w3-round">2,99</span></h3>
+                     </div>   
+                       <h2 id="waffles" class="w3-center w3-padding-15 w3-wide">Waffles</h2>
+                        <div class="w3-container w3-white w3-padding-10 w3-margin-right w3-border w3-border-black">
+                            <h3>With ice cream<span class="w3-right w3-tag w3-light-grey w3-round">5,99</span></h3>
+                            <h3>With caramel<span class="w3-right w3-tag w3-light-grey w3-round">4,99</span></h3>
+                            <h3>With cream<span class="w3-right w3-tag w3-light-grey w3-round">3,99</span></h3>
+                            <h3>With hot sauce<span class="w3-right w3-tag w3-light-grey w3-round">4,99</span></h3>
+                        </div>
+                            <h2 id="rolled" class="w3-center w3-padding-15 w3-wide">Rolled</h2>
+                                <div class="w3-container w3-white w3-padding-10 w3-margin-right w3-border w3-border-black">
+                                 <h3>With nuts<span class="w3-right w3-tag w3-light-grey w3-round">9,99</span></h3>
+                                 <h3>With fruits<span class="w3-right w3-tag w3-light-grey w3-round">9,99</span></h3>
+                                 <h3>With Nutella<span class="w3-right w3-tag w3-light-grey w3-round">9,99</span></h3>
+                                 <h3>With jam<span class="w3-right w3-tag w3-light-grey w3-round">9,99</span></h3>
+                                </div>
+            </div>         
+    </div>           
+</div>
+<!-- End Content -->
+
+<!-- About -->
+<div id="about" class="w3-padding-top-200 w3-margin-top">
+    <div class="row">
+        <div class="w3-half w3-padding w3-hide-small">
+            <br><img src="./img/ice-cream2.jpg" class="w3-round w3-image w3-opacity-min" alt="Flavours" width="100%">
+        </div>
+            <div class="w3-half w3-padding-large">
+                <h1 class="w3-center"><br><br>About Ice Cream Palrol</h1><br>
+                <h5 class="w3-center">Tradition since 1950</h5>
+                <p class="w3-large w3-center">If you are tired of the crazy hot weather outside, it is time to try our delicious ice cream. We have all your favourite flavours and you can always try them in a very unusual form: in a regular cone, in a warm and soft waffle or as a rolled ice cream.</p>
+            </div>
+    </div>
+</div>
+<!-- End Content -->
+
+<!-- Contact -->
+
+<!-- End Content -->
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+<p>
+Powered by 
+<a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>
+</p>
+</footer>
+</body>
+</html>
